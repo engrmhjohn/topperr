@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h4,h5,h6,p,span{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+.c-mr-0{
+    margin-right: 0px;
+}
+.top-bar{
+    background: linear-gradient(45deg, #E91E63 -132%, #0c2e8a 100%);
+    padding: 11px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    position: relative;
+}
+.left-ul li{
+    list-style: none;
+    float: left;
+    padding: 0px 5px;
+}
+i{
+    margin-right: 4px;
+}
+.right-ul li{
+    float: right;
+    list-style: none;
+    padding: 0px 5px;
+}
+.top-bar li, i{
+    margin-right: 8px;
+    color: #E91E63;
+}
+.hero-menu{
+    background-color: white;
+}
+.logo{
+    font-size: 42px;
+    font-weight: 700;
+    color: #E91E63;
+}
+.hero-menu ul li:hover a{
+    color: red !important;
+}
+.hero-content{
+    min-height: 70vh;
+    overflow: hidden;
+    background-image: url(../image/header.jpg);
+    background-size: cover;
+}
+.hero-content-text{
+    float: right;
+    margin-right: 10px;
+    margin-top: 100px;
+    position: relative;
+}
+.hero-content-text h2{
+    color: #E91E63;
+    text-align: right;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.hero-content-text p{
+    font-weight: 700;
+    font-size: 24px;
+}
+.hero-btn{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 32px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #0c2e8a;
+    background-color: #0c2e8a;
+    color: white;
+    position: absolute;
+    right: 0px;
+    bottom: -90px;
+}
+.hero-btn:hover{
+    background: none;
+    color: #0c2e8a;
+    transition: 0.5s;
+}
+.heading h2{
+    font-size: 32px;
+    color: #E91E63;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.heading p{
+    color: #E91E63;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+.heading-description{
+    color: #444 !important;
+}
+.slogan-body-right h5{
+    font-weight: bold;
+}
+.slogan-body-right .mute{
+    font-style: italic;
+}
+.slogan-body-right .justify-p{
+    text-align: justify;
+}
+.card{
+    text-align: center;
+    padding: 35px 25px;
+}
+.card i{
+    color: red;
+    font-size: 44px;
+    transition: 0.5s;
+}
+.card p{
+    text-align: justify;
+}
+.services .card{
+    margin-top: 30px;
+    transition: 1s;
+}
+.services .card:hover{
+    margin-top: 20px;
+}
+.clients img{
+    height: 40px;
+    width: 165px;
+    padding: 0px 10px;
+}
+.portfolio{
+    min-height: 700px;
+    background: linear-gradient(45deg, #E91E63 -132%, #0c2e8a 100%);
+}
+.p-white{
+    color: #ffffff9c !important;
+}
+.portfolio-img{
+    height: 100%;
+    width: 100%;
+}
+.overly{
+    position: relative;
+}
+.portfolio-overly{
+    width: 150px;
+    height: 100px;
+    border: 1px solid white;
+    position: absolute;
+    top: 23%;
+    left: 67px;
+    padding: 27px;
+    color: white;
+    font-weight: 800;
+    background: #000;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 16px;
+    z-index: 1;
+}
+.portfolio-img:hover{
+    cursor: pointer;
+    /* background: red; */
+}
+.hov{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #444;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.hov:hover{
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+}
+.testimonial-card{
+    margin: 0px 15px;
+    padding: 0px;
+    border-radius: 10%;
+    background-color: #efefef;
+}
+.testimonial-card p{
+    font-size: 14px;
+    color: #686868;
+    font-style: italic;
+}
+.special-i{
+    color: red;
+}
+.call-to-action{
+    min-height: 35vh;
+    background:#081e5b;
+}
+.cta-content h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.cta-p{
+    color: #fff;
+    text-align: justify;
+}
+.cta-btn{
+    background-color: #081e5b;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 26px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 3px solid #fff;
+    color: #fff;
+}
+.cta-btn:hover{
+    background-color: #E91E63;
+    border: 3px solid #E91E63;
+}
+.our-team .card{
+    border: none;
+}
+.our-team .card-title{
+    font-size: 18px;
+    color: #E91E63;
+}
+.our-team .card p{
+    font-size: 14px;
+    color: #E91E63;
+    font-style: italic;
+}
+.ot-social-icon ul li{
+    list-style: none;
+    float: left;  
+}
+.ot-social-icon i{
+    padding: 3px 11px;
+    border: 1px solid blueviolet;
+    font-size: 20px;
+}
+.our-team .card-img-top{
+    padding: 20px 20px 0;
+    border-bottom: 4px solid #E91E63;
+}
+.contact-us h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+    float: left;
+}
+.contact-us i{
+    margin-left: 45px;
+} 
+.contact-address{
+    margin-left: -74px;
+}
+.contact-phone{
+    margin-left: -126px; 
+}
+.contact-email{
+    margin-left: -47px;
+}
+.t-resize{
+    resize: none;
+}
+.feedback-btn{
+    background: #E91E63;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 15px;
+    color: #fff;
+    float: right;
+    transition: 1s;
+}
+.feedback-btn:hover{
+    background: #081e5b;
+    transition: 1s;
+}
+.map iframe{
+    width: 100%;
+}
+.footer{
+    background: #0c2e8a;
+    color: white;
+    text-align: center;
+}
+
+@media(max-width:540px){
+    .tog-menu{
+        float: right;
+    }
+   .left-ul {
+        padding-left: 5%;
+    }
+    .right-ul {
+        padding-right: 15%;
+    }
+    .hero-content-text h2{
+        margin-right: 170px;
+        font-size: 45px;
+        margin-top: -65px;
+      }
+      .hero-content-text p{
+        margin: 0px;
+        opacity: 0.6;
+      }
+      .hero-btn{
+        position: relative;
+        top: 45px;
+        left: 5px;
+      }
+      .heading .heading-description{
+        text-align: justify;
+        padding: 0px 7px;
+      }
+      .clients img{
+        float: left;
+        height: 40px;
+        width: 65px;
+        padding: 0px 10px;
+      }
+      .portfolio-overly{
+        width: 80px;
+        height: 50px;
+        top: 10px;
+        left: 15px;
+        padding: 8px 5px;
+        font-size: 12px;
+      }
+      .portfolio{
+        min-height: 500px;
+        background: linear-gradient(45deg, #E91E63 -132%, #0c2e8a 100%);
+    }
+    .cta-content h3{
+        margin-left: 100px;
+    }
+    .call-to-action .cta-btn{
+        position: relative;
+        /* bottom: 10px; */
+        left: 40px;
+        top: -50px;
+    }
+    .our-team .card{
+        margin-left: 80px;
+    }
+    .ot-social-icon{
+        margin-left: 0px;
+    }
+    .testimonial-card{
+        margin-top: 15px;
+    }
+}
+ 
